@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 14" width="11" height="14">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<g id="Hero Area">
+		<g id="Group 1">
+			<g id="Arrow">
+				<path id="Arrow" class="shp0" d="M2.67 13L9 7L2.67 1L2 2.35L6.9 7L2 11.65L2.67 13Z" />
+			</g>
+		</g>
+	</g>
+</svg>
