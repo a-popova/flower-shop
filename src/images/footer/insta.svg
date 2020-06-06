@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<defs>
+		<image width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAHJQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmuLzngAAACZ0Uk5TAAKY/9SxgoBtitieNh0l0gSEdEfs6zxJtAtefkHiZ+P35OX2Jli8mCfAAAAAh0lEQVR4nHWP2xKCMAxEF5ZSFUTkIip3gf//RdMqTHWGfUrOZJMN4Pnc5HsAAqpQWx2OPAERY6w6x4xAZeskAS5MrwQzafOCLG/V/fEUUAMN267rKUNmQgPDaFyvCdAWzFwMWDjvga9lHD6WdWnLBqids0UuRUY3mEjxJzpMdOe5UDEQ+vf+GymiB449ZmZKAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Header">
+		<g id="Top">
+			<g id="Social Icons">
+				<use id="insta" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

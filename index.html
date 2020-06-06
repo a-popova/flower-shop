@@ -1,15 +1,307 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0.0"/>
+    <title>Flower Shop</title>
 
-<head>
-    <meta charset="utf-8">
-    <title>Webpack Boilerplate</title>
-    
-    <link rel="stylesheet" href="dist/bundle.css">
+    <link rel="stylesheet" href="dist/bundle.css" />
     <script src="dist/bundle.js"></script>
-</head>
+  </head>
 
-<body>
-</body>
-
+  <body>
+    <header class="header container">
+      <div class="wrapper">
+        <div class="login container">
+          <div class="login__social-links">
+            <ul class="login__social-links__list">
+              <li><img src="src/images/header/fb.png"></li>
+              <li><img src="src/images/header/twitter.svg"></li>
+              <li><img src="src/images/header/insta.svg"></li>
+            </ul>
+          </div>
+          <div class="login__login">
+            <p>Login</p>
+            <p>Register</p>
+          </div>
+        </div>
+        <div class="logo container">
+          <div class="logo__call">
+            <div class="logo__call__block">
+              <img class="picture" src="src/images/header/phone.svg">
+              <div class="text">
+                <p>Need help?</p>
+                <p><strong>1800</strong> 000 000</p>
+              </div>
+            </div>
+          </div>
+          <h1 class="logo__icon">Flowers Shop</h1>
+          <input class="logo__search" type="text" placeholder="Search">
+        </div>
+        <nav class="navigation container">
+          <ul class="navigation__list">
+            <li class="item">Home</li>
+            <li class="item">Christmas</li>
+            <li class="item">Season's Best</li>
+            <li class="item">Wedding</li>
+            <li class="item">By Occasions</li>
+            <li class="item">By Types</li>
+            <li class="item">By Prices</li>
+            <li class="item">By Flowers</li>
+            <li class="item">Plants</li>
+            <li class="item">Terrariums</li>
+          </ul>
+          <div class="navigation__cart">
+            <img class="cart" src="src/images/header/Shopping-cart.svg">
+            <p>Cart</p>
+          </div>
+        </nav>
+        <div class="pluses container">
+          <div class="pluses__block">
+            <img src="src/images/header/icon lock.png">
+            <p>100% Secure & PCI Compliance</p>
+          </div>
+          <div class="pluses__block">
+            <img src="src/images/header/icon van.png">
+            <p>Order by 2PM for Same day delivery</p>
+          </div>
+          <div class="pluses__block">
+            <img src="src/images/header/thumb-up.png">
+            <p>100% Satisfaction Guaranteed</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main container">
+      <div class="wrapper">
+        <div class="order container">
+          <div class="order__column-1">
+            <div class="block">
+              <p class="uppercase">order<br><span>flowers</span></p>
+              <p>........................<br>........................</p>
+              <p>Shop Our Collection</p>
+            </div>
+            <div class="block">
+              <p class="uppercase">corporate<br><span>flowers</span></p>
+              <p>........................<br>........................</p>
+              <p>See Our Work</p>
+            </div>
+            <div class="block">
+              <p class="uppercase">handcrafted<br><span>wedding</span></p>
+              <p>........................<br>........................</p>
+              <p>View Our Portfolio</p>
+            </div>
+          </div>
+          <div class="order__column-2">
+            <p>Order <span>Flowers</span></p>
+            <p>100% Moneyback Guarantee</p>
+            <button type="submit">Shop now</button>
+          </div>
+        </div>
+        <div class="products container">
+          <div class="products__row">
+            <h2>Featured products</h2>
+            <div class="products__featured-products block">
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__row">
+            <h2>New Arrivals</h2>
+            <div class="products__new-arrivals block">
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__row">
+            <h2>Most Popular</h2>
+            <div class="products__most-popular block">
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+              <div class="item">
+                <h4>Item Name</h4>
+                <div class="item__flowers">
+                  <img src="src/images/main/flowers.png" />
+                </div>
+                <div class="item__buy">
+                  <p>28.50$</p>
+                  <button type="submit">Order now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-main container">
+        <div class="wrapper">
+          <div class="columns">
+            <div class="columns__links column">
+              <h5>Links</h5>
+              <ul>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Delivery Policy</li>
+                <li>100% Staisfaction Guaranteed</li>
+                <li>Privacy Policy</li>
+                <li>Security Policy</li>
+                <li>Terms and Conditions</li>
+                <li>Testimonials</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+            <div class="columns__useful-information column">
+              <h5>Useful Information</h5>
+              <ul>
+                <li>Caring for Flowers</li>
+                <li>Caring for Plants</li>
+                <li>Flower Meaning</li>
+                <li>How to choose flowers</li>
+                <li>Message Ideas</li>
+              </ul>
+            </div>
+            <div class="columns__stay-connected column">
+              <h5>Stay Connected</h5>
+              <p>Join our email list for exclusive news and deals</p>
+              <form>
+                <input type="text" name="name" placeholder="Enter your name">
+                <input type="email" name="email" placeholder="Enter your email address">
+                <button>Join now</button>
+              </form>
+            </div>
+            <div class="columns__testimonials column">
+              <h5>Testimonials</h5>
+              <ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam distinctio ut! Aperiam natus quas, veritatis cumque, excepturi doloribus ex modi autem suscipit quos vel amet sit sapiente, nihil explicabo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iusto libero nihil natus velit maiores est quisquam blanditiis, voluptatum exercitationem sint quae tempora vel dignissimos quis aliquam tempore ipsa eos.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-icons container">
+        <div class="wrapper">
+          <div class="row">
+            <ul class="payment">
+              <li><img src="src/images/footer/visa.png"></li>
+              <li><img src="src/images/footer/url.png"></li>
+            </ul>
+            <div class="copyright">
+              © 2020 flowershop.com
+            </div>
+            <ul class="social-icons">
+              <li><img src="src/images/footer/fb.png"></li>
+              <li><img src="src/images/footer/twitter.svg"></li>
+              <li><img src="src/images/footer/insta.svg"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

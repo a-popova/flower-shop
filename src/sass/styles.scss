@@ -1,13 +1,433 @@
+@import 'mixins.scss';
+@import 'normilize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 @font-face {
-    font-family: OpenSans;
-    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'Streetwear';
+    src: url(../fonts/streetwear.regular.otf);
 }
 
 body {
-    min-height: 100vh;
-    background: rgb(94, 0, 58);
-    color: white;
-    background-image: url('../images/cat.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header .wrapper {
+    max-width: 1020px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: $white;
+}
+
+.main .wrapper {
+    max-width: 1020px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;    
+    background: $lightgray;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+    background: $white;
+}
+
+.login {
+    justify-content: flex-end;
+    margin: size(10px) 0;
+
+    &__social-links {
+        margin: 0 size(15px) 0 0;
+        &__list {
+            display: flex;
+        }
+
+        li {
+            margin: 0 10px 0 0;
+        }
+    }
+
+    &__login {
+        display: flex;
+
+        p {
+            @include RobotoMedium;
+            font-size: size(14px);
+        }
+
+        p:first-child::after {
+            content: '|';
+            margin: 0 size(10px);
+        }
+    }
+}
+
+.logo {
+    justify-content: space-between;
+    align-items: center;
+
+    &__call {
+        display: flex;
+        @include RobotoRegular;
+        font-size: size(15px);
+
+        &__block {
+            display: flex;
+
+            .picture {
+                margin: 0 size(15px) 0 0;
+            }
+        }
+    }
+
+    &__icon {
+        @include RobotoLight;
+        font-size: size(52px);
+    }
+
+    &__search {
+        width: 200px;
+        height: 28px;
+        padding: 5px 5px 5px 30px; 
+        border: 1px solid #b0b0b0; 
+        border-radius: 50px;
+        background: url(../images/header/search.svg) 5px 50% no-repeat;
+        @include RobotoRegular;
+        font-size: size(14px);
+    }
+}
+
+.navigation {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 size(20px) 0;
+    @include RobotoRegular;
+    font-size: size(15px);
+
+    &__list {
+        display: flex;
+        justify-items: flex-start;
+        
+        .item {
+            margin: 0 size(20px) 0 0;
+        }
+    }
+
+    &__cart {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .cart {
+            margin: 0 size(10px) 0 0;
+        }
+    }
+}
+
+.pluses {
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+    @include RobotoRegular;
+    font-size: size(15px);
+
+    &__block{
+        display: flex;
+        align-items: center;
+
+        img {
+            margin: 0 size(10px) 0 0;
+        }
+    }
+}
+
+/* Main */
+
+
+.main {
+    flex-direction: column;
+    background: $lightgray;
+}
+
+.order__column-1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.order__column-1 .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin: 5px 5px 0 0;
+    padding: 5px 10px 5px 20px;
+    background: $white;
+    @include RobotoRegular;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    p {
+        font-size: size(15px);
+        margin: 10px 0;
+
+        &>span {
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        &:nth-child(2) {
+            line-height: .4;
+        }
+
+        &:last-child::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            display: block;
+            margin: 5px 0;
+            border-radius: 50px;
+            border: 1px solid black;
+            background: url(../images/main/Arrow.svg) center no-repeat;
+        }
+    }
+    
+    p.uppercase {
+        font-size: size(20px);
+    }
+}
+
+.order__column-2 {
+    width: 75%;
+    background: url(../images/main/annie-spratt-KQ6sO8m1ZDE-unsplash.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.order__column-2 {
+    > * {
+        margin: 10px 30px;
+    }
+
+    &>p:first-child {
+        font-family: 'Streetwear';
+        font-size: size(36px);
+
+        span {
+            color: #fc6f56;
+        }
+    }
+
+    &>p:nth-child(2) {
+        @include RobotoRegular;
+        font-size: size(21px);
+    }
+
+    button {
+        width: 130px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 50px;
+        background: none;
+        @include RobotoBold;
+        font-size: size(15px);
+        background: url(../images/main/Arrow.svg) 100px center no-repeat;
+    }
+}
+
+.products {
+    flex-direction: column;
+    margin: 20px 0 50px 0;
+
+    &__row {
+        margin: 40px 0 0 0;
+    }
+}
+
+.products h2 {
+    @include RobotoLight;
+    font-size: size(18px);
+}
+
+.products .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+
+.products .block .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    @include RobotoRegular;
+
+    h4 {
+        font-size: size(14px);
+    }
+
+    &__flowers {
+        background-color: $white;
+        margin-bottom: 10px;
+    }
+
+    &__buy {
+        width: 100%;
+        p {
+            font-size: size(16px);
+        }
+        button {
+            width: 95px;
+            height: 25px;
+            font-size: size(13px);
+            border: 1px solid black;
+            border-radius: 50px;
+            background: none;
+        }
+    }
+}
+
+.products .block .item__buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*Footer*/
+
+.footer-main {
+    background-color: $footergray;
+}
+
+.footer-icons {
+    background-color: $white;
+}
+
+.footer-main .wrapper,
+.footer-icons .wrapper {
+    max-width: 1020px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.footer-main .columns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.footer-main .column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    @include RobotoRegular;
+    font-size: size(13px);
+    line-height: 1.7;
+    h5 {
+        font-size: 13px;
+    }
+
+    li {
+        margin-bottom: 15px;
+    }
+}
+
+.columns__stay-connected {
+    margin-right: 60px;
+    form {
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
+
+.columns__stay-connected form {
+    &>* {
+        height: 40px;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        border: 1px solid #cbcbcb;
+    }
+    input {
+        box-sizing: border-box;
+        background: $white;
+    }
+
+    button {
+        color: $white;
+        border: 1px solid #6fb071;
+        background: #6fb07f;
+    }
+}
+
+.columns__testimonials {
+    p {
+        margin-bottom: 15px;
+        padding-left: 20px;
+            position: relative;
+        &::before {
+            content: url(../images/footer/copy.png);
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 0;
+        }
+    }
+}
+
+.footer-icons .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.footer-icons .payment, 
+.footer-icons .social-icons {
+    display: flex;
+    li {
+        margin: 0 10px 0 0;
+    }
+}
+
+.footer-icons .copyright {
+    @include RobotoRegular;
+    color: #999999;
+    font-size: size(13px);
+}
+
+
+.uppercase {
+    text-transform: uppercase;
 }

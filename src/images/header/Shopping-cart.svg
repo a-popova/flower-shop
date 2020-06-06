@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23" width="28" height="23">
+	<defs>
+		<image width="58" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAwCAYAAABAIGlOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAqRJREFUeNrkWsFVwkAQDcjBI948hg6gAoINCEdvUoFSgVCBUIF69CQVSKzAdEA6MN48OvOcfc5bNyGZEJzVeW8JgX1kf/7/O5NdguCfRAtfRtHZLRz6O/rONvFz4ivQDh2vS/S9gjb1HegC2jCnT0gt8l66RQGyvoTDHZ32QL6pj0DbJfrE7L23rO4ESgwaFod/FqjFqreMdkr2e4GGXg3Bs3OP8KWgyPtSkxFNSDjrbj0lc4D5v5R0LZ/6FmkV6RqfonwzAH6iGRkocEPzSQJjzapMRsanGF34ob5yFiM7NbYrMqo+nwIJkYOc8kA9yqcRG/Nawqgv+XToUGBloD74NLJlW4dRlaxa/pQz6oFPz9lYa0lXu08jF5tSoCp9CmPpBt/LQS/7AKrVp7n+FAFV7NNhnj+ljGr1aa4/6wBV5dNd/twHo1pYLfSnGKhCnxb6sw6j2nxa6M+6QFX4tIw/98Xob7O6058YrRp3Ei+woVPu2UNHSA39mYunIwSJWxSXrov9YsRFX3YEIOcMJC48adhKxHEs9go0+No+DAjgyKyyaY+2wJddOl34ArLurOtVtAQefSNW0fwTX1iVAMXJ6IallQdFeNZ5/7MQ5VG25K8xnEprC0COA93ruryQqSXdLRUHGd25mLYVn1jN2eh/HayCZYp7oFTz3tqfS9NLn1VAM/NIRKAmrOu4YdYMmKUBg1KFNiUCfjw+VpVul71PHc+orn5Nxrvjs4SVpWKgiaNC4sWE8yY0VPL9YI0UF7ke2SQe5TMu7lat6PyKmMzIo1mDHuUpLqYxGI8aNQ14qpHUuuiDV/rBscOPswMUEcvga/vBMGhngaWdT4+qXiFNt1kv7D0S0L4l6wu+J9lUwBg+aAyn5MVjZhmcbVfBf41PAQYAgVX7DvwX7aAAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Navigation">
+		<use id="Shopping-cart-1@2x" href="#img1" transform="matrix(0.5,0,0,0.5,-1,-1)"/>
+	</g>
+</svg>
