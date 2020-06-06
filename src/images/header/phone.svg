@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 33" width="17" height="33">
+	<defs>
+		<image width="17" height="33" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAhCAYAAAA/F0BXAAABi0lEQVRIS+2WPWvCUBSGn6hFsRkF/4COrm4uqXSrQ/wFuosWVxVUuolCsEO6mO7WoXML/gUXtywurhUE8bvcpIofEdI9d8w957knL+fe90jAI/AC3AMb3K874AcoScA3oJzmRiIR4vE4y+XS+ixJEn6/n/F4zHw+vzzmXUA+gafTnWAwSDabZTabsdvtLEAoFKLf7zvVqQvIRyqVUtPpNJuN/Tfr9ZrFYoHP5zsm7fd7wuGwBRQrEAgwGAwYjUavFqTT6ailUsm9Gn+RxWIRTdNsSLVaVRuNxr8huVwOwzBsSKVSUZvNpgfxNLnsAa9Prm+Fp4mniZu38qxParWaWq/X3eSdxeTzeXq9nv1Qt1ottVwu/xtSKBTodrs2JJFIqMlk8mibB9p0OrWcb7VaEY1Gzw4RLjkcDjFN04YAqlMZiqKQyWRot9tMJpNblVqQKy8W0cJCt9utlWiaJrFY7BbkTUC+gIfLCDEJaJpmGbsQXdf1WxBDQMR8IuxPdppPZFl2GicE8DCfPP8CM24Pq5a9D04AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Header">
+		<g id="Need Help">
+			<use id="phone" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

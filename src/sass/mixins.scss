@@ -1,0 +1,29 @@
+$white: #ffffff;
+$lightgray: #f9f9f9;
+$footergray: #f2f2f2;
+
+$rem-baseline: 14px;
+
+@function size($target) {
+    @return ($target / $rem-baseline) * 1em;
+  }
+
+@mixin RobotoLight{
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+@mixin RobotoRegular {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+@mixin RobotoMedium {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+@mixin RobotoBold {
+    font-family: "Roboto";
+    font-weight: 600;
+}
